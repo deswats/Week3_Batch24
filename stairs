@@ -1,0 +1,10 @@
+var line = 5
+for(var i=0; i< line; i++){
+for(var j=0; j<=i; j++)
+{document.write("#");}
+document.write("<br/>");}
+
+var line = 5
+for(var i=0; i< line; i++){
+for (var j=0;(j<= line-i-1); j++){document.write("#");}
+document.write("<br/>");}
